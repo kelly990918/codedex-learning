@@ -1,0 +1,48 @@
+span {color: red;}
+
+form {
+    padding: 30px;
+    background-color: #BFD4DB;
+    display: block;
+    width: 30vw;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {font-size: small;}
+
+/* Practising pseudo-class */
+textarea:hover {
+    background-color: #ffffb7;
+}
+
+input[type="text"]:hover {
+    background-color: #ffffb7;
+}
+
+ul {
+    margin: auto;
+    background-color: #BFD4DB;
+    display: block;
+    width: 10vw;
+    height: 20vh;
+    text-align: center;
+}
+
+li:first-child {
+    border: 2px dotted black;
+}
+
+li:nth-child(even) {
+    border: 2px solid violet;
+}
+
+li:nth-child(3) {
+    border: 3px dashed navy;
+}
+
+h2:hover {
+    background-color: aqua;
+}

@@ -1,0 +1,19 @@
+#invite-wrapper {
+    width: 75%;
+    padding: 25px;
+    background-color: #f0f8ff;
+    color: #050301; 
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#invite-text {
+    width: 80%;
+}
+
+#itinerary {
+    text-align: center;
+}

@@ -1,0 +1,311 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+::-moz-selection {
+    background: #F8F8FF;
+}
+  
+::selection {
+    background: #F8F8FF;
+}
+
+/* header */
+header {
+    background-color: #8DD3DE;
+    height: 50px;
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    position: relative;
+    color: #070B35;
+    text-align: center;
+    padding-top: 5px;
+}
+
+header > a {
+    text-decoration: none;
+}
+
+/* main */
+#row {
+    display: flex;
+}
+
+#about {
+    background-color: #F8F8FF;
+    display: block;
+    width: 25vw;
+    color: #242124;
+}
+
+#about > h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+#profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #7C8AC5;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+#bio {
+    width: 80%;
+    background-color: #7C8AC5;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #7280BF;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+    
+}
+
+#edu {
+    width: 80%;
+    background-color: #C1ACE8;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #BD9DE3;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#edu > ul {
+    list-style-type: none;
+}
+
+#skills {
+    width: 80%;
+    background-color: #CDE4F5;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #C0DFF7;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#skills > ul {
+    list-style-type: none;
+}
+
+#socials {
+    width: 80%;
+    background-color: #B8DBC9;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #ABD5C0;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#socials > a {
+    text-decoration: none;
+}
+
+#socials > a:hover {
+    text-decoration: underline;
+    color: #242124;
+}
+
+#work {
+    width: 75vw;
+    height: 90vh;
+    position: relative;
+}
+
+#work::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/peter-rabbit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.work-row {
+    display: flex;
+    position: relative;
+}
+
+#work > h2 {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#work1 {
+    width: 30vw;
+    height: 35vh;
+    background-color: #C8C7F7;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #CCB5FB;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#work1 > h3, p {
+    padding-bottom: 1em;
+}
+
+#work1 >h3 {
+    text-align: center;
+}
+
+#work1 > img {
+    position: absolute;
+    height: 18vh;
+    margin-left: 120px;
+}
+
+#work2 {
+    width: 30vw;
+    height: 35vh;
+    background-color: #C8C7F7;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #CCB5FB;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#work2 > h3, p {
+    padding-bottom: 1em;
+}
+
+#work2 >h3 {
+    text-align: center;
+}
+
+#work2 > img {
+    position: absolute;
+    height: 18vh;    
+    margin-left: 95px;
+}
+
+#github {
+    text-decoration: none;
+    color: #242124;
+}
+
+#github:hover {
+    text-decoration: underline;
+}
+
+#work3 {
+    width: 30vw;
+    height: 35vh;
+    background-color: #FCF0C7;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #FDE0CB;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#work3 > h3 {
+    text-align: center;
+}
+
+#work3 > h3, p {
+    padding-bottom: 1em;
+}
+
+#work3 > a:hover {
+    text-decoration: underline;
+    color: #242124;
+}
+
+#work3 > a {
+    text-decoration: none;
+}
+
+#work3 > img {
+    position: relative;
+    height: 25vh;    
+    margin-left: 110px;
+}
+
+#work4 {
+    width: 30vw;
+    height: 35vh;
+    background-color: #FCF0C7;
+    color: #242124;
+    padding: 15px;
+    border: 2px solid #FDE0CB;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+
+#work4 > img {
+    position: relative;
+    height: 25vh;    
+    margin-left: 50px;
+}
+
+#work4 > h3 {
+    text-align: center;
+}
+
+#work4 > h3, p {
+    padding-bottom: 1em;
+}
+
+/* footer */
+label {
+    font-size: large;
+    color: #E6E6ED;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    background-color: #070B35;
+    height: 100px;
+    padding-top: 50px;
+}
+
+input[type="email"] {
+    width: 300px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+input[type="email"]:hover {
+    background-color: #f2f3f4;
+}
+
+input[type="submit"] {
+    font-size: large;
+    border-radius: 5px;
+    background-color: #F8F8FF;
+}
+
+footer > p, a {
+    font-size: large;
+    color: #E6E6ED;
+    padding-top: 10px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,89 @@
+::-moz-selection {
+    background-color: #ebf9ff;
+}
+
+::selection {
+    background-color: #ebf9ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-image: url(bg-flower.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+main {
+    background-color: rgb(230, 209, 242, 0.85);
+    position: relative;
+    top: 30%;
+    border: 1px solid #B19CD8;
+    border-radius: 20px;
+    min-width: 540px;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#search {
+    border-radius: 25px 0 0 25px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    width: 70%;
+    height: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit {
+    border-radius: 0 25px 25px 0;
+    border: white;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 4em;
+    height: 42px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    border: 1px solid #B19CD8;
+}
+
+#weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+#weather-search {
+    display: flex;
+}
+
+#weather-data {
+    background-color: #fff9e3;
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+  
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+  
+#weather-data > img {
+    border-radius: 50%;
+    background-color: lightskyblue;
+}

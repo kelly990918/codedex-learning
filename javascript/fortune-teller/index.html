@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Fortune Teller</title>
+</head>
+<body>
+    <div id="fortune-teller">
+    <h1>💟Fortune Teller💟</h1>
+    <h2>Get your Daily Fortune!</h2>
+    <label id="birthday">
+    <p>Your Birthday?</p>
+    <form id="fortune-form">
+        Date: <input id="date" type="number" min="1" max="31" placeholder="DD" required>
+        Month: <input id="month" type="number" min="1" max="12" placeholder="MM" required>
+        <br>
+        <input id="submit" type="submit" value="Get fortune!">
+    </form>
+    </label>
+    <div id="fortune" style="display: none;">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
